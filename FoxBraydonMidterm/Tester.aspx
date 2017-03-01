@@ -12,19 +12,19 @@
         
         <h1>Tester Page</h1>
 
-        <h2>Enter a new bug:</h2>
+        <h2>Enter a new bug</h2>
 
-        <p>Priority<br />
+        <p>Priority:<br />
             <asp:DropDownList ID="priorityDropDownList" runat="server" AutoPostBack="True">
                 <asp:ListItem>Low</asp:ListItem>
                 <asp:ListItem>Medium</asp:ListItem>
                 <asp:ListItem>High</asp:ListItem>
                 </asp:DropDownList></p>
 
-        <p>Subject<br />
+        <p>Subject:<br />
             <asp:TextBox ID="subjectTextBox" runat="server" Width="40%"></asp:TextBox></p>
 
-        <p>Description<br />
+        <p>Description:<br />
             <asp:TextBox ID="descriptionTextBox" runat="server" Width="40%"></asp:TextBox></p>
 
         <p>
