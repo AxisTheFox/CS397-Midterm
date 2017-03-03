@@ -43,6 +43,7 @@ namespace FoxBraydonMidterm
         {
             assignBugToDeveloper();
             reloadBugDropDownList();
+            successLabel.Text = "Bug successfully assigned.";
         }
 
         private void fillBugDropDownList()

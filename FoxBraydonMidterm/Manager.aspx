@@ -37,6 +37,9 @@
         <p>
             <asp:Button ID="assignButton" runat="server" Text="Assign" OnClick="assignButton_Click" /></p>
 
+        <p>
+            <asp:Label ID="successLabel" runat="server" Text=""></asp:Label></p>
+
     </div>
     </form>
 </body>
