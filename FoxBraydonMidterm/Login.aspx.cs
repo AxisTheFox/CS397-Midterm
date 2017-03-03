@@ -88,7 +88,7 @@ namespace FoxBraydonMidterm
                 case "Developer":
                     Response.Redirect("Developer.aspx");
                     break;
-                case "Adminstrator":
+                case "Administrator":
                     Response.Redirect("Administrator.aspx");
                     break;
             }
