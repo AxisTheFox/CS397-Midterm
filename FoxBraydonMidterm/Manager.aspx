@@ -17,16 +17,16 @@
         <p>Select a bug:<br />
             <asp:DropDownList ID="bugDropDownList" runat="server" AutoPostBack="True" OnSelectedIndexChanged="bugDropDownList_SelectedIndexChanged" /></p>
 
-        <p>
+        <p><strong>
             <asp:Label ID="bugIdLabel" runat="server" Text=""></asp:Label>
             &nbsp&nbsp&nbsp
             <asp:Label ID="enteredByLabel" runat="server" Text=""></asp:Label>
             &nbsp&nbsp&nbsp
             <asp:Label ID="bugPriorityLabel" runat="server" Text=""></asp:Label>
-        </p>
+        </strong></p>
 
-        <p>
-            <asp:Label ID="bugSubjectLabel" runat="server" Text=""></asp:Label>
+        <p><strong>
+            <asp:Label ID="bugSubjectLabel" runat="server" Text=""></asp:Label></strong>
             <br />
             <asp:Label ID="bugDescriptionLabel" runat="server" Text=""></asp:Label>
         </p>
@@ -35,7 +35,7 @@
             <asp:DropDownList ID="developerDropDownList" runat="server"></asp:DropDownList></p>
 
         <p>
-            <asp:Button ID="assignButton" runat="server" Text="Assign" /></p>
+            <asp:Button ID="assignButton" runat="server" Text="Assign" OnClick="assignButton_Click" /></p>
 
     </div>
     </form>
