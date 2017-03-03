@@ -36,7 +36,7 @@ namespace FoxBraydonMidterm
 
         private void fillAssignedBugsDropDownList()
         {
-            string databaseQuery = "select [BugId], [Subject] from Bugs where [AssignedTo]=@thisUser and [Status]='Open'";
+            string databaseQuery = "select [BugId], [Subject] from Bugs where [AssignedTo]=@thisUser and [Status]='Assigned'";
             OleDbConnection databaseConnection = new OleDbConnection(ConfigurationManager.ConnectionStrings["QA"].ConnectionString);
             OleDbCommand databaseCommand = new OleDbCommand(databaseQuery, databaseConnection);
             databaseCommand.Parameters.AddWithValue("@thisUser", Session["userId"]);
